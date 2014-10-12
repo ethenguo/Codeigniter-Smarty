@@ -14,7 +14,7 @@ require_once( APPPATH . 'libraries/Smarty-3.1.19/libs/Smarty.class.php' );
 class Mysmarty extends Smarty {
 	//保护变量ci
 	protected $ci;
-	public function  __construct(){
+	public function  __construct() {
 		//实例化父类
 		parent::__construct();
 		//引用ci的对象
